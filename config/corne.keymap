@@ -15,14 +15,17 @@
 
 / {
     behaviors {
-        hm: homerow_mods {
+        home_row: home_row {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            label = "HOME_ROW";
+            bindings = <&none>, <&none>;
+
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            quick-tap-ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            tapping-term-ms = <280>;
+            flavor = "balanced";
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            hold-trigger-key-positions = <13 14 15 22 21 20>;
         };
     };
 
