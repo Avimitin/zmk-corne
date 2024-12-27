@@ -110,10 +110,10 @@
         NUM {
             label = "1";
             bindings = <
-&trans  &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9  &kp N0         &trans
-&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &trans  &kp APOS       &trans
-&trans  &kp GRAVE     &kp PLUS    &kp MINUS      &kp EQUAL     &kp LS(UNDER)    &trans         &trans        &trans        &trans  &kp BACKSLASH  &trans
-                                  &trans         &trans        &trans           &trans         &trans        &trans
+&trans  &kp N1  &kp N2     &kp N3        &kp N4     &kp N5       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &trans
+&trans  &trans  &kp GRAVE  &kp LS(PLUS)  &kp MINUS  &kp EQUAL    &trans  &trans  &trans  &trans  &kp SQT        &trans
+&trans  &none   &none      &none         &none      &trans       &trans  &trans  &trans  &trans  &kp BACKSLASH  &trans
+                           &trans        &trans     &trans       &trans  &trans  &trans
             >;
         };
 
