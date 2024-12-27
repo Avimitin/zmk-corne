@@ -26,6 +26,7 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <13 14 15 22 21 20>;
+            hold-trigger-on-release;
         };
     };
 
@@ -34,12 +35,12 @@
 
         a {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 1>;
+            key-positions = <4 5>;
         };
 
         b {
             bindings = <&kp TAB>;
-            key-positions = <14 13>;
+            key-positions = <16 17>;
         };
 
         c {
