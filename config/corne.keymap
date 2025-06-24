@@ -119,20 +119,20 @@
         default_layer {
             label = "0";
             bindings = <
-&none  &kp SEMICOLON       &kp COMMA         &kp PERIOD  &kp P  &kp Y        &kp F      &kp G  &kp C  &kp R               &kp L                 &none
-&none  &left LEFT_SHIFT A  &left LEFT_ALT O  &kp E       &kp U  &kp I        &kp D      &kp H  &kp T  &right RIGHT_ALT N  &right RIGHT_SHIFT S  &none
-&none  &left LCTRL SQT     &kp Q             &kp J       &kp K  &kp X        &kp B      &kp M  &kp W  &kp V               &right RCTRL Z        &none
-                                             &kp LGUI    &mo 1  &kp SPACE    &kp ENTER  &mo 2  &mo 4
+&none  &kp Q               &kp W             &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O               &kp P                         &none
+&none  &left LEFT_SHIFT A  &left LEFT_ALT S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &right RIGHT_ALT L  &right RIGHT_SHIFT SEMICOLON  &none
+&none  &left LCTRL Z       &kp X             &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp PERIOD          &right RCTRL SINGLE_QUOTE     &none
+                                             &kp LGUI  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &mo 4
             >;
         };
 
         NUM {
             label = "1";
             bindings = <
-&trans  &kp N7     &kp NUMBER_5  &kp N3     &kp NUMBER_1  &kp NUMBER_9    &kp NUMBER_0  &kp NUMBER_2  &kp NUMBER_4  &kp NUMBER_6  &kp NUMBER_8   &trans
-&trans  &kp GRAVE  &kp PLUS      &kp MINUS  &kp EQUAL     &kp UNDER       &trans        &trans        &trans        &trans        &kp SLASH      &trans
-&trans  &none      &none         &none      &none         &trans          &trans        &trans        &trans        &trans        &kp BACKSLASH  &trans
-                                 &trans     &trans        &trans          &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &trans
+&trans  &kp GRAVE     &kp PLUS      &kp MINUS     &kp EQUAL     &kp UNDER       &trans        &trans        &trans        &trans        &kp SLASH      &trans
+&trans  &none         &none         &none         &none         &trans          &trans        &trans        &trans        &trans        &kp BACKSLASH  &trans
+                                    &trans        &trans        &trans          &trans        &trans        &trans
             >;
         };
 
@@ -158,10 +158,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(PAGE_DOWN)  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(PG_UP)      &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(PAGE_DOWN)  &kp LG(PG_UP)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans             &trans
             >;
         };
     };
