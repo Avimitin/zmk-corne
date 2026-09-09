@@ -64,3 +64,9 @@ together after verifying a full build.
 
 The settings-reset image is only needed when clearing stored bonds and
 settings; flash it temporarily, then flash the normal firmware again.
+
+## Bluetooth
+
+See [Bluetooth pairing and troubleshooting](docs/bluetooth.md) for the
+configured profile keys, the full storage-reset procedure, and the confirmed
+Linux workaround for BlueZ reporting `AuthenticationRejected`.
